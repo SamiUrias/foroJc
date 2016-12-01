@@ -6,6 +6,10 @@
   background-color: white;
 }
 
+.background-color-black {
+  background-color: black;
+}
+
 .active-navbar-location {
   border-bottom: 1px solid black;
 }
@@ -29,6 +33,10 @@
 
 .aside-trend-link {
   font-size: 16px;
+}
+
+.color-white {
+  color: white;
 }
 
 .common-background-color {
@@ -65,6 +73,15 @@
   font-size: 20px;
   font-weight: 700;
   margin-top: 15px;
+}
+
+.second-navbar {
+  text-decoration: none;
+  color: #000000;
+}
+
+.text-decoration-none {
+  text-decoration: none;
 }
 
 /*Dimentions of the advertisement square of the aside*/
