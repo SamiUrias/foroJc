@@ -2,30 +2,6 @@
 /*Background color of the body*/
 /*Background color of the aside*/
 /*Debug*/
-.debug-border-black {
-  border: 1px solid black;
-}
-
-.debug-border-peru {
-  border: 1px solid peru;
-}
-
-.debug-border-blue {
-  border: 1px solid blue;
-}
-
-.debug-border-red {
-  border: 1px solid red;
-}
-
-.debug-border-green {
-  border: 1px solid green;
-}
-
-.debug-border-yellow {
-  border: 1px solid yellow;
-}
-
 .article-padding-top {
   background-color: white;
   padding-bottom: 10px;
