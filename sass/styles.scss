@@ -11,9 +11,12 @@ $color-of-aside-info: gray;
 //.debug-border-green     { border: 1px solid green;  }
 //.debug-border-yellow     { border: 1px solid yellow;  }
 
+.background-color-white{
+  background-color: white;
+}
 
 .active-navbar-location{
-  
+  border-bottom: 1px solid black;
 }
 .article-padding-top{
   background-color: white;
@@ -88,6 +91,10 @@ $color-of-aside-info: gray;
   width: 300px;
   height: 250px;
 }
+
+
+/*********************************** COMMONS **************************************************/
+
 
 /*Height*/
 $class-common-height: common-height !default

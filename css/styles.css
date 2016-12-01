@@ -2,6 +2,14 @@
 /*Background color of the body*/
 /*Background color of the aside*/
 /*Debug*/
+.background-color-white {
+  background-color: white;
+}
+
+.active-navbar-location {
+  border-bottom: 1px solid black;
+}
+
 .article-padding-top {
   background-color: white;
   padding-bottom: 10px;
@@ -65,6 +73,7 @@
   height: 250px;
 }
 
+/*********************************** COMMONS **************************************************/
 /*Height*/
 .common-height-1 {
   height: 1px;
