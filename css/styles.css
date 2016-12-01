@@ -75,6 +75,10 @@
 
 /*********************************** COMMONS **************************************************/
 /*Height*/
+.common-height-0 {
+  height: 0px;
+}
+
 .common-height-1 {
   height: 1px;
 }
@@ -876,6 +880,10 @@
 }
 
 /*Padding left*/
+.common-padding-left-0 {
+  padding-left: 0px;
+}
+
 .common-padding-left-1 {
   padding-left: 1px;
 }
@@ -1677,6 +1685,10 @@
 }
 
 /*Padding right*/
+.common-padding-right-0 {
+  padding-right: 0px;
+}
+
 .common-padding-right-1 {
   padding-right: 1px;
 }
@@ -2478,6 +2490,10 @@
 }
 
 /*Padding top*/
+.common-padding-top-0 {
+  padding-top: 0px;
+}
+
 .common-padding-top-1 {
   padding-top: 1px;
 }
@@ -3279,6 +3295,10 @@
 }
 
 /*Padding bottom*/
+.common-padding-bottom-0 {
+  padding-bottom: 0px;
+}
+
 .common-padding-bottom-1 {
   padding-bottom: 1px;
 }
@@ -4080,6 +4100,10 @@
 }
 
 /*Margin top*/
+.common-margin-top-0 {
+  margin-top: 0px;
+}
+
 .common-margin-top-1 {
   margin-top: 1px;
 }
@@ -4881,6 +4905,10 @@
 }
 
 /*Margin bottom*/
+.common-margin-bottom-0 {
+  margin-bottom: 0px;
+}
+
 .common-margin-bottom-1 {
   margin-bottom: 1px;
 }

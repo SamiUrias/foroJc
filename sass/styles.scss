@@ -98,7 +98,7 @@ $color-of-aside-info: gray;
 
 /*Height*/
 $class-common-height: common-height !default
-@for $i from 1 to 201 {
+@for $i from 0 to 201 {
   .#{$class-common-height}-#{$i}{
   height: $i+px
   }
@@ -106,7 +106,7 @@ $class-common-height: common-height !default
 
 /*Padding left*/
 $class-common-padding-left: common-padding-left !default
-@for $i from 1 to 201 {
+@for $i from 0 to 201 {
   .#{$class-common-padding-left}-#{$i}{
     padding-left: $i+px
   }
@@ -114,7 +114,7 @@ $class-common-padding-left: common-padding-left !default
 
 /*Padding right*/
 $class-common-padding-right: common-padding-right !default
-@for $i from 1 to 201 {
+@for $i from 0 to 201 {
   .#{$class-common-padding-right}-#{$i}{
     padding-right: $i+px
   }
@@ -122,7 +122,7 @@ $class-common-padding-right: common-padding-right !default
 
 /*Padding top*/
 $class-common-padding-top: common-padding-top !default
-@for $i from 1 to 201 {
+@for $i from 0 to 201 {
   .#{$class-common-padding-top}-#{$i}{
     padding-top: $i+px
   }
@@ -131,7 +131,7 @@ $class-common-padding-top: common-padding-top !default
 
 /*Padding bottom*/
 $class-common-padding-bottom: common-padding-bottom !default
-@for $i from 1 to 201 {
+@for $i from 0 to 201 {
   .#{$class-common-padding-bottom}-#{$i}{
     padding-bottom: $i+px
   }
@@ -140,7 +140,7 @@ $class-common-padding-bottom: common-padding-bottom !default
 
 /*Margin top*/
 $class-common-margin-top: common-margin-top !default
-@for $i from 1 to 201 {
+@for $i from 0 to 201 {
   .#{$class-common-margin-top}-#{$i}{
     margin-top: $i+px
   }
@@ -148,7 +148,7 @@ $class-common-margin-top: common-margin-top !default
 
 /*Margin bottom*/
 $class-common-margin-bottom: common-margin-bottom !default
-@for $i from 1 to 201 {
+@for $i from 0 to 201 {
   .#{$class-common-margin-bottom}-#{$i}{
     margin-bottom: $i+px
   }
