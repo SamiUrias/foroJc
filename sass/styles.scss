@@ -1,0 +1,146 @@
+$navbar-background: black;                                      /*Background color of the navbar*/
+$common-background-color: lighten(#CCFFE5,0%);                  /*Background color of the body*/
+$common-aside-background-color: white;                          /*Background color of the aside*/
+$color-of-aside-info: gray;
+
+/*Debug*/
+.debug-border-black     { border: 1px solid black;  }
+.debug-border-peru      { border: 1px solid peru;   }
+.debug-border-blue      { border: 1px solid blue;   }
+.debug-border-red       { border: 1px solid red;    }
+.debug-border-green     { border: 1px solid green;  }
+.debug-border-yellow     { border: 1px solid yellow;  }
+
+
+
+.article-padding-top{
+  background-color: white;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+
+.aside-info{
+  color: $color-of-aside-info;
+  font-size: 13px;
+}
+
+.aside-title{
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+
+.aside-trend-link{
+  font-size: 16px
+}
+
+.common-background-color{
+  background-color: $common-background-color;
+}
+
+.common-aside-background-color{
+  background-color: $common-aside-background-color;
+}
+
+.footer{
+
+}
+.img-background{
+  background: url("../img/images.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 120px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  width: auto;
+}
+
+
+
+.navbar-background{
+  background-color: $navbar-background;
+}
+
+.navbar-color{
+  color: white !important;
+}
+
+
+.navbar-text{
+  color: white;
+}
+
+
+.post-title{
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+
+
+/*Dimentions of the advertisement square of the aside*/
+.advertisement-dimentions{
+  width: 300px;
+  height: 250px;
+}
+
+/*Height*/
+$class-common-height: common-height !default
+@for $i from 1 to 201 {
+  .#{$class-common-height}-#{$i}{
+  height: $i+px
+  }
+}
+
+/*Padding left*/
+$class-common-padding-left: common-padding-left !default
+@for $i from 1 to 201 {
+  .#{$class-common-padding-left}-#{$i}{
+    padding-left: $i+px
+  }
+}
+
+/*Padding right*/
+$class-common-padding-right: common-padding-right !default
+@for $i from 1 to 201 {
+  .#{$class-common-padding-right}-#{$i}{
+    padding-right: $i+px
+  }
+}
+
+/*Padding top*/
+$class-common-padding-top: common-padding-top !default
+@for $i from 1 to 201 {
+  .#{$class-common-padding-top}-#{$i}{
+    padding-top: $i+px
+  }
+}
+
+
+/*Padding bottom*/
+$class-common-padding-bottom: common-padding-bottom !default
+@for $i from 1 to 201 {
+  .#{$class-common-padding-bottom}-#{$i}{
+    padding-bottom: $i+px
+  }
+}
+
+
+/*Margin top*/
+$class-common-margin-top: common-margin-top !default
+@for $i from 1 to 201 {
+  .#{$class-common-margin-top}-#{$i}{
+    margin-top: $i+px
+  }
+}
+
+/*Margin bottom*/
+$class-common-margin-bottom: common-margin-bottom !default
+@for $i from 1 to 201 {
+  .#{$class-common-margin-bottom}-#{$i}{
+    margin-bottom: $i+px
+  }
+}
